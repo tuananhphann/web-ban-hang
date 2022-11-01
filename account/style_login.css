@@ -61,12 +61,12 @@ html{
 
 .header_container_left {
     color: #5ec9ff;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .header_container_left a {
     color:#5ec9ff;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     margin-left: 5px;
 }
@@ -81,10 +81,11 @@ html{
     width: auto;
 }
 
-.header_container_right {
+.header_container_right a{
     color: #5ec9ff;
-    font-size: 30px;
+    font-size: 24px;
 }
+
 
     /* NAV BAR */
 
@@ -112,7 +113,7 @@ html{
 .header_nav a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header_nav a:hover{
@@ -130,6 +131,7 @@ html{
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: none;
+    z-index: 1;
 }
 
 .drop-down:hover .drop-down-menu{
@@ -162,7 +164,7 @@ html{
     margin: 16px 0 64px 0;
 }
 
-.login-control-forget-pwd,
+.login-control-forgot-pwd,
 .login-btn {
     flex: 1 0 50%;
     max-width: 50%;
@@ -194,7 +196,6 @@ html{
     font-size: 16px;
     padding: 16px 0;
     opacity: 0.7;
-
 }
 
 .login-btn:hover {

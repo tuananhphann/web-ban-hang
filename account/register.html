@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style_login.css">
-    <title>Vergency - Đăng nhập</title>
+    <link rel="stylesheet" href="./style_register.css">
+    <title>Vergency - Đăng ký</title>
 </head>
 <body>
     <div id="header">
@@ -59,18 +59,19 @@
         </div>
     </div>
 
-    <div id="login" class="center">
-        <h1>ĐĂNG NHẬP</h1>
-        <form action="" method="post">
-            <input required type="email" name="customer[email]" id="customer_email" placeholder="Email" class="form-control"> 
-            <input required type="password" name="customer[password]" id="customer_password" placeholder="Mật khẩu" class="form-control">
-            <div class="login-control">
-                <span><a class="login-control-forgot-pwd" href="./forgot_password.html">Quên mật khẩu?</a></span>
-                <input class="login-btn" type="submit" value="Đăng Nhập" > 
-            </div>
+
+    <div id="register" class="center">
+        <h1>ĐĂNG KÝ</h1>
+        <form class="register-form" action="" method="post">
+            <input class="form-control" required type="text" name="customer[name]" id="customer_name" placeholder="Họ và tên">
+            <input class="form-control" required type="email" name="customer[email]" id="customer_email" placeholder="Email">
+            <input class="form-control" required type="tel" name="customer[phone_number]" id="customer_phonenumber" placeholder="Số điện thoại">
+            <input class="form-control" required type="password" name="customer[password]" id="customer_password" placeholder="Mật khẩu">
+            <input class="form-control" required type="password" name="customer[password_retype]" id="customer_password_retype" placeholder="Xác nhận mật khẩu">
+            <input class="register-form-btn" type="submit" value="Đăng ký">
         </form>
-        <span>Bạn chưa có tài khoản? <a class="login-control-forgot-pwd" href="./register.html">Tạo tài khoản mới ngay.</a></span>
     </div>
+
 
     <div id="footer">
         <div class="footer-center center">
@@ -153,5 +154,6 @@
             }
         }
     </script>
+
 </body>
 </html>
