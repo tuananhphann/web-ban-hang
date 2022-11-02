@@ -3,6 +3,10 @@
 ## Các trang đã được tạo đến thời điểm hiện tại.
 - [x] Home page
 - [x] Login page
-- [ ] Create account page.
+- [x] Create account page.
+- [x] Forgot password page.
+- [x] All products page. 
 - [ ] Product detail page.
-- [ ] Products page. 
+- [ ] Cart page.
+- [ ] Page for each product category.
+- [ ] Web admin.
